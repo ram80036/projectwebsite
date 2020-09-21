@@ -1,0 +1,48 @@
+#service{
+    display: flex;
+    margin: auto;
+    
+}
+
+#service .box{
+    color: orange;
+    border: 2px solid brown;
+    height:415px ;
+    width: 360px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    
+
+}
+
+#service .box p{
+    color: black;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 3px;
+    font-family: 'Parisienne', cursive;
+}
+@media only screen and (max-width:1179px){
+    #service{
+        flex-direction: column;
+    }
+}
